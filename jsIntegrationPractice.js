@@ -1,4 +1,4 @@
-var apple;
+var apples;
 function apples() {
 
 	console.log('snowman')
@@ -29,4 +29,4 @@ function apples() {
 
 }
 
-window.onload = apple;
+window.onload = apples;
