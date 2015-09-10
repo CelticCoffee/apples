@@ -2,18 +2,21 @@
 	background-color: lightyellow;
 }
 
-.apple .red {
+.red {
 	font-size: 2em;
 	color: red;
-
 }
 
-.apple .green {
+.green {
 	font-size: 2em;
 	color: green;
 }
 
-.apple .poisined {
+.poisined {
 	font-size: 4em;
 	color: orange;
+}
+
+.hidden {
+	visibility: hidden;
 }

@@ -1,4 +1,4 @@
-var apples;
+var apple;
 function apples() {
 
 	console.log('snowman')
@@ -16,17 +16,26 @@ function apples() {
 
 	// for (i = 0; i < typeApple.length; i++){
 	// 	console.log(apple.appendChild(i));
-	}
+	
 
 	apple.appendChild(red);
 	red.classList.add('red');
 
 	apple.appendChild(green);
-	red.classList.add('green');
+	green.classList.add('green');
 
 	apple.appendChild(poisined);
-	red.classList.add('poisined');
+	poisined.classList.add('poisined');
 
+	red.innerHTML="red";
+	green.innerHTML="green";
+	poisined.innerHTML="poisined";
+
+	poisined.onclick=function() {
+		red.classList.add('hidden');
+		green.classList.add('hidden');
+		console.log('banana');
+	}
 }
 
 window.onload = apples;
