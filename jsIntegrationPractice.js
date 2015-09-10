@@ -12,8 +12,20 @@ function apples() {
 	var poisined = document.createElement('div');
 	poisined.setAttribute('id', 'poisined');
 
+	// var typeApple = [red, green, poisined];
+
+	// for (i = 0; i < typeApple.length; i++){
+	// 	console.log(apple.appendChild(i));
+	}
+
 	apple.appendChild(red);
 	red.classList.add('red');
+
+	apple.appendChild(green);
+	red.classList.add('green');
+
+	apple.appendChild(poisined);
+	red.classList.add('poisined');
 
 }
 
