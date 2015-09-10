@@ -1,0 +1,19 @@
+* {
+	background-color: lightyellow;
+}
+
+.apple .red {
+	font-size: 2em;
+	color: red;
+
+}
+
+.apple .green {
+	font-size: 2em;
+	color: green;
+}
+
+.apple .poisined {
+	font-size: 4em;
+	color: orange;
+}
